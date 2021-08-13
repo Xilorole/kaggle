@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+numpy = "*"
+tqdm = "*"
+pandas = "*"
+seaborn = "*"
+matplotlib = "*"
+sklearn = "*"
+transformers = "*"
+accelerate = "*"
+jupyter = "*"
+colorama = "*"
+swifter = "*"
+kaggle = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
